@@ -4,7 +4,7 @@
 Predict which food app users are likely to upgrade their membership tier, enabling targeted marketing.
 
 ## Dataset
-1000+ synthetic food app customers with 18 features (demographics, spending behavior, cuisine preferences, app engagement).
+1000+ synthetic food app customers with 18 features including demographics, spending behavior, cuisine preferences, and app engagement.
 
 ## Approach
 EDA → Feature Engineering → ML Model → Propensity Scoring → Tier Bucketing (Cold / Warm / Hot / Very Hot)
@@ -20,12 +20,16 @@ EDA → Feature Engineering → ML Model → Propensity Scoring → Tier Bucketi
 ## Tech Stack
 Python, Pandas, Scikit-learn, Matplotlib/Seaborn, Jupyter Notebook
 
-## Results
-[Add your accuracy / AUC-ROC score here]
-
 ## Files
 | File | Description |
 |------|-------------|
 | `food_app_customer_data.csv` | Raw customer dataset |
 | `scored_customers.csv` | Output with propensity scores |
 | `predictive_analytics_customer_tiers.ipynb` | Full notebook |
+
+## Team
+| Name |
+|------|
+| Rushi |
+| Akash Bhuyan |
+| Rahul Atkare |
